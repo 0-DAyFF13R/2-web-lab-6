@@ -183,7 +183,7 @@ if (isset($_POST['A'])) {
 		<img class="logo" src="mospolytech_logo.png" width="150px" text-align="center" alt="Логотип университета">
         <div>
 			<h1>ЛР6: тест математических знаний</h1>
-			<p>Анашин Александр 241-352. Форма, обработка POST и отчет на одной PHP-странице</p>
+			<p>Анашин Александр, группа 241-352</p>
 		</div>
     </header>
 
