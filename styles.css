@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f5f8;
+    color: #1f2937;
+}
+
+.page-header {
+    padding: 24px;
+    background: #14532d;
+    color: #fff;
+}
+
+.page-header h1,
+.page-header p,
+.panel h2 {
+    margin: 0;
+}
+
+.page-header p {
+    margin-top: 8px;
+}
+
+.page-main {
+    padding: 24px;
+}
+
+.panel {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.panel h2 {
+    margin-bottom: 20px;
+}
+
+.lab-form {
+    display: grid;
+    gap: 14px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 14px;
+    align-items: center;
+}
+
+.form-row span,
+.check-row span,
+dt {
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+.check-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#mailRow {
+    display: none;
+}
+
+.submit-button,
+.repeat-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 180px;
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 8px;
+    background: #14532d;
+    color: #fff;
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.submit-button:hover,
+.repeat-link:hover {
+    background: #166534;
+}
+
+.report-browser {
+    background: linear-gradient(135deg, #ffffff, #eef6ff);
+}
+
+.report-print {
+    background: #fff;
+    border: 1px solid #d1d5db;
+    box-shadow: none;
+}
+
+.report-list {
+    margin: 0;
+    display: grid;
+    gap: 14px;
+}
+
+.report-list div {
+    padding: 14px;
+    border-radius: 10px;
+    background: rgba(20, 83, 45, 0.06);
+}
+
+.report-list dt {
+    margin-bottom: 6px;
+}
+
+.report-list dd {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.ok {
+    color: #166534;
+}
+
+.fail {
+    color: #b91c1c;
+}
+
+.mail-info {
+    margin: 18px 0 0;
+    padding: 14px;
+    border-radius: 10px;
+    background: #fef3c7;
+}
+
+.repeat-link {
+    margin-top: 18px;
+}
+
+.page-footer {
+    padding: 18px 24px 24px;
+    color: #6b7280;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .page-main {
+        padding: 16px;
+    }
+
+    .panel {
+        padding: 18px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
