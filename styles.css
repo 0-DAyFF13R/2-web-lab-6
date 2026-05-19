@@ -11,7 +11,7 @@ body {
 
 .page-header {
     padding: 24px;
-    background: #14532d;
+    background: #0f3d6e;
     color: #fff;
 }
 
@@ -95,7 +95,7 @@ textarea {
     padding: 12px 18px;
     border: 0;
     border-radius: 8px;
-    background: #14532d;
+    background: #0f3d6e;
     color: #fff;
     font: inherit;
     text-decoration: none;
